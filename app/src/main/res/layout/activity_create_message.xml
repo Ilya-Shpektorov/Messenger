@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E4E89D"
     tools:context=".CreateMessageActivity">
 
     <EditText
@@ -11,17 +12,20 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/hint_send_message"
+        android:importantForAutofill="no"
+        android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/button_send_background"
         android:onClick="sendMessage"
         android:text="@string/button_send_message"
         app:layout_constraintEnd_toEndOf="parent"

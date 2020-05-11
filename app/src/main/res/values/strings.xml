@@ -2,4 +2,5 @@
     <string name="app_name">Messenger</string>
     <string name="hint_send_message">Введите сообщение</string>
     <string name="button_send_message">Отправить</string>
+    <string name="intent_chooser_send_message">Выбирете приложение для отправки сообщения</string>
 </resources>
